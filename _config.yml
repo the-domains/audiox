@@ -1,28 +1,40 @@
-name: audiox
 favicon: null
-layout_spectrum: 0.41486786887981
-typography_spectrum: 0.8702446524985135
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: audiox
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.8685149541124701
+  brandStrength: 0.527949336450547
+  rhythmicContrast: 0.3193129552528262
   brandColors:
     - '#B8B42D'
     - '#697A21'
     - '#FFFCE8'
     - '#3E363F'
     - '#DD403A'
-  brandStrength: 0.527949336450547
   lightness: 0.9767499445006251
-  saturation: 0.8685149541124701
-  rhythmicContrast: 0.3193129552528262
-purpose: []
+typography_spectrum: 0.8702446524985135
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0
+analytics:
+  twitter: null
+  google: null
+  facebook: null
