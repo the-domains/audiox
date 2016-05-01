@@ -1,8 +1,7 @@
-cta:
-  bucket: null
-  version: null
-  domain: null
-name: audio~x
+analytics:
+  twitter: null
+  google: null
+  facebook: null
 opengraph:
   image: null
   type: null
@@ -13,14 +12,18 @@ collections:
       number: 15
       paginate: true
       navigable: true
-    permalink:
-      path: '/:title/'
     feed:
       path: /rss.xml
       format: rss
       number: 10
+    permalink:
+      path: '/:title/'
+layout_spectrum: 0
+cta:
+  bucket: null
+  version: null
+  domain: null
 purpose: []
-typography_spectrum: 0.7240143
 color:
   saturation: 0.8685149541124701
   brandStrength: 0.9749104
@@ -32,9 +35,6 @@ color:
     - '#AB8053'
     - '#284A90'
   lightness: 0.9767499445006251
-layout_spectrum: 0
-analytics:
-  twitter: null
-  google: null
-  facebook: null
 favicon: null
+name: audio~x
+typography_spectrum: 0.7240143
